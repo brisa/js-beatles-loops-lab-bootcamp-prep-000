@@ -19,3 +19,9 @@ function johnLennonFacts(array){
   }
     return(newFacts)
 }
+
+function iLoveTheBeatles(num){
+  if(num === 17){
+    return 
+  }
+}
