@@ -21,10 +21,10 @@ function johnLennonFacts(array){
 }
 
 function iLoveTheBeatles(num){
-  let newArr = []
- 
-    for(let i=1; i< num; i++){
-       newArr.push('I love the Beatles!')
-      return newArr
+  do{
   }
+  while (){
+    
+  }
+  
 }
