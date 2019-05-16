@@ -26,7 +26,7 @@ function iLoveTheBeatles(num){
     return 'I love the Beatles!'
   }
   else{
-    for(let i=0; i< num; i++){
+    for(let i=1; i< num; i++){
       newArr.push('I love the Beatles!')
       return newArr
     }
