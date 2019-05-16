@@ -21,12 +21,14 @@ function johnLennonFacts(array){
 }
 
 function iLoveTheBeatles(num){
+  let newArr = []
   if(num === 17){
     return 'I love the Beatles!'
   }
   else{
     for(let i=0; i< num; i++){
-      return 'I love the Beatles!'
+      newArr.push('I love the Beatles!')
+      return newArr
     }
   }
 }
