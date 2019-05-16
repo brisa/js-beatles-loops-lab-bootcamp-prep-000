@@ -24,12 +24,7 @@ function iLoveTheBeatles(num){
   let newArr = []
  
     for(let i=1; i< num; i++){
-       if(num === 17){
-    return 'I love the Beatles!'
-  }
-     else{
        newArr.push('I love the Beatles!')
       return newArr
-     } 
   }
 }
