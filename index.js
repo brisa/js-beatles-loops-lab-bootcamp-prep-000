@@ -8,9 +8,14 @@ function theBeatlesPlay(arrayMusicians, arrayInstruments){
   return(emptyArr)
 }
 let newFacts = []
-function johnLennonFacts(arrayFacts){
-  for(let i = 0; i<arrayFacts; i++){
-    newFacts.push(arrayFacts[i]+ "!!!")
-    return newFacts
+function johnLennonFacts(array){
+    let facts = array
+   // console.log(array.length)
+   // console.log('newFacts ' + newFacts.length)
+  for(let i = 0; i<array.length; i++){
+    newFacts.push(array[i]+ "!!!")
+   
   }
+    return(newFacts)
 }
+johnLennonFacts(facts);
